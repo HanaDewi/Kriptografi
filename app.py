@@ -106,8 +106,7 @@ def calculate_sac_matrix(sbox44):
 # === Streamlit App ===
 
 st.title("S-Box Analysis Tool")
-st.markdown("Upload file spreadsheet berisi nilai S-Box untuk dianalisis.")
-
+st.markdown("Cryptography Project by Hana Devi Shoviyah (4611421012) & Sugini Injani (4611421019)")
 # Upload file
 uploaded_file = st.file_uploader("Upload file Excel S-Box", type=["xlsx", "xls"])
 
